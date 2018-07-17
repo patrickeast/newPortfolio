@@ -19,7 +19,8 @@
 }
 
 .firstContainer {
-  background-image: url("./images/CSSBG.jpg");
+  background-color: #09adef;
+  padding: 10%;
   width: 100%;
   height: 500px;
   opacity: .7;
@@ -29,8 +30,9 @@
 
 .secondContainer {
   background-image: url("./images/KeyboardBG.jpg");
+  background-attachment: fixed;
   width: 100%;
-  height: 500px;
+  height: 1000px;
   background-size: cover;
   opacity: .7;
   background-repeat: no-repeat;
@@ -46,7 +48,6 @@
 }
 
 .App-intro {
-  font-size: large;
   padding: 25%;
 }
 
