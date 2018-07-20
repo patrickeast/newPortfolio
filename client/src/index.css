@@ -1,15 +1,10 @@
 body, html {
   width: 100%;
-  /* background-color: #e9d733; */
 }
 
 html {
   position: relative;
   min-height: 100%;
-}
-
-body {
-  margin-bottom: 40px;
 }
 
 ul, li, a {

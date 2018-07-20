@@ -3,7 +3,12 @@
 }
 
 .parallax {
-  background-image: url("./images/MountainBG.jpg");
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#a7c6e1+0,76aac7+60,76aac7+100 */
+  background: #a7c6e1; /* Old browsers */
+  background: -moz-linear-gradient(top, #a7c6e1 0%, #5ccaf5 60%, #09adef 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #a7c6e1 0%,#5ccaf5 60%,#09adef 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #a7c6e1 0%,#5ccaf5 60%,#09adef 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  /* filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a7c6e1', endColorstr='#09adef',GradientType=0 );  */
   height: 100vh;
   background-attachment: fixed;
   background-position: center;
@@ -18,14 +23,39 @@
   }
 }
 
+.parallax:hover {
+  animation: bounceout .4s linear;
+  -moz-animation: bounceout .4s linear;
+  -webkit-animation: bounceout .4s linear;
+}
+
+@keyframes bounceout {
+  0% {box-shadow: 0,0,0,4px}
+}
+@-moz-keyframes bounceOut {
+  0%{ box-shadow: 0 0 0 4px; opacity:1;}
+  25%{ box-shadow: 0 0 0 1px; opacity:1;}
+  50%{ box-shadow: 0 0 0 7px; opacity:1; }
+  75%{ box-shadow: 0 0 0 4px; opacity:1;}
+  100%{ box-shadow: 0 0 0 5px; opacity:1;}
+}
+
+@-webkit-keyframes bounceOut {
+  0%{ box-shadow: 0 0 0 4px; opacity:1;}
+  25%{ box-shadow: 0 0 0 1px; opacity:1;}
+  50%{ box-shadow: 0 0 0 7px; opacity:1; }
+  75%{ box-shadow: 0 0 0 4px; opacity:1;}
+  100%{ box-shadow: 0 0 0 5px; opacity:1;}
+}
+
+
 .firstContainer {
-  background-color: #09adef;
+  background: #29b5ec;
   padding: 10%;
-  width: 100%;
-  height: 500px;
-  opacity: .7;
-  background-size: cover;
-  background-repeat: no-repeat;
+  height: 100vh;
+  /* opacity: .7; */
+  /* background-size: cover; */
+  /* background-repeat: no-repeat; */
 }
 
 .secondContainer {
@@ -41,6 +71,8 @@
 .App-logo {
   animation: App-logo-spin infinite 10s linear;
   color: #1bd19f;
+  position: absolute;
+  top: 5px;
   height: 20px;
   margin: 5px 0 0 5px;
 }

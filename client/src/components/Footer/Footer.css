@@ -1,0 +1,10 @@
+.footer {
+    position: absolute;
+    bottom: 0;
+    background: url("../../images/Footer.svg");
+    background-repeat: repeat-x;
+    background-size: 100%;
+    width: 100%;
+    height: 280px;
+    z-index: 99999;
+}
