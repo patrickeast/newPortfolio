@@ -36,16 +36,22 @@
   box-shadow: 0px 10px 10px 0px rgba(50,50,50,0.2);
 } */
 
+.navbar-brand {
+  position: absolute;
+  top: 45px;
+}
+
 .navbar a {
-  color: white;
+  color: #1bd19f;
   font-size: 1.5rem;
   margin-right: 15px;
 }
 
 .navbar a:hover {
   text-decoration: none;
-  color: #1bd19f;
-  transition: 0.3s ease;
+  color: #d11b94;
+  transition: 0.4s ease-in-out;
+  transition: 0.4s ease-out;
 }
 
 .navbar a:active {
@@ -62,5 +68,43 @@
   .navbar {
     font-size: 1rem;
   }
+}
+
+.EastLogo {
+  width: 33%;
+  position: absolute;
+  top: 20px;
+  left: 33%;
+}
+
+.EastLogo:hover {
+  animation: bounce .7s linear infinite;
+  -moz-animation: bounce .7s linear infinite;
+  -webkit-animation: bounce .7s linear infinite;
+}
+
+@keyframes bounce {
+	0%, 100%, 20%, 50%, 80% {
+		-webkit-transform: translateY(0);
+		-ms-transform:     translateY(0);
+		transform:         translateY(0)
+	}
+	40% {
+		-webkit-transform: translateY(-30px);
+		-ms-transform:     translateY(-30px);
+		transform:         translateY(-30px)
+	}
+	60% {
+		-webkit-transform: translateY(-15px);
+		-ms-transform:     translateY(-15px);
+		transform:         translateY(-15px)
+	}
+}
+
+.icons {
+  position: absolute;
+  top: 45px;
+  right: 40px;
+  padding: 10px;
 }
     
