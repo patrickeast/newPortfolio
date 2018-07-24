@@ -76,7 +76,7 @@ class App extends Component {
             {/* Row 1 */}
             <div className="row justify-content-between">
               {/* Portfolio #1 */}
-              <div className="col-xs-10 col-sm-5 col-md-4">
+              <div>
                 <div className="image-flip" onTouchStart="this.classList.toggle('hover');">
                   <div className="mainflip">
                     <div className="frontside">
@@ -105,7 +105,7 @@ class App extends Component {
                 </div>
               </div>
               {/* Portfolio #2 */}
-              <div className="col-xs-10 col-sm-5 col-md-4">
+              <div>
                 <div className="image-flip" onTouchStart="this.classList.toggle('hover');">
                   <div className="mainflip">
                     <div className="frontside">
@@ -134,7 +134,7 @@ class App extends Component {
                 </div>
               </div>
               {/* Portfolio #3 */}
-              <div className="col-xs-10 col-sm-5 col-md-4">
+              <div>
                 <div className="image-flip" onTouchStart="this.classList.toggle('hover');">
                   <div className="mainflip">
                     <div className="frontside">
@@ -167,7 +167,7 @@ class App extends Component {
             {/* Row 2 */}
             <div className="row justify-content-between">
               {/* Portfolio #4 */}
-              <div className="col-xs-10 col-sm-5 col-md-4">
+              <div>
                 <div className="image-flip" onTouchStart="this.classList.toggle('hover');">
                   <div className="mainflip">
                     <div className="frontside">
@@ -201,7 +201,7 @@ class App extends Component {
                 </div>
               </div>
               {/* Portfolio #5 */}
-              <div className="col-xs-10 col-sm-5 col-md-4">
+              <div>
                 <div className="image-flip" onTouchStart="this.classList.toggle('hover');">
                   <div className="mainflip">
                     <div className="frontside">
@@ -233,7 +233,7 @@ class App extends Component {
                 </div>
               </div>
               {/* Portfolio #6 */}
-              <div className="col-xs-10 col-sm-5 col-md-4">
+              <div>
                 <div className="image-flip" onTouchStart="this.classList.toggle('hover');">
                   <div className="mainflip">
                     <div className="frontside">
