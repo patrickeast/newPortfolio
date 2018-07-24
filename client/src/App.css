@@ -78,8 +78,8 @@
    
 .image-flip {
   margin-bottom: 40px;
-  width: 400px;
-  height: 400px;
+  width: 350px;
+  height: 350px;
 }
 
 @media (max-width: 750px) {
@@ -105,8 +105,8 @@
 
 @media (max-width: 750px) {
   .mainflip {
-    height: 400px;
-    width: 400px;
+    height: 350px;
+    width: 350px;
     margin-bottom: 40px;
   }
 }
