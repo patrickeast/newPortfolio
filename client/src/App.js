@@ -243,6 +243,9 @@ class App extends Component {
             I am a dedicated Frontend Developer, specializing in UI/UX design, with over 5 years of experience in the Adobe Creative Cloud Suite. If you have any questions, comments, or
             if you just want to chat, send me an email!
           </h2>
+          <a href="https://github.com/patrickeast" target="_blank" rel="noopener noreferrer" value="View my GitHub" title="View my GitHub"><i className="icons mr-3 fab fa-github fa-3x"></i></a>
+          <a href="https://www.linkedin.com/in/patrickeast/" target="_blank" rel="noopener noreferrer" title="Connect with me on LinkedIn"><i className="icons mr-3 fab fa-linkedin-in fa-3x"></i></a>
+          <a href="mailto:patrick.east@icloud.com" target="_blank" rel="noopener noreferrer" title="Send me a message"><i className="icons mr-3 fas fa-envelope fa-3x"></i></a>
         </div>
         <Footer />
       </div >

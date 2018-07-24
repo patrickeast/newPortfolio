@@ -17,13 +17,7 @@
   display: inline-block;
 }
 
-.navbar-default { border-color: transparent;} 
 
-.navbar-toggler {
-  position: absolute;
-  top: 5px;
-  left: 5px;
-}
 /* .tagline {
   font-family: "Rajdhani", sans-serif;
   font-size: 2rem;
@@ -45,14 +39,17 @@
 @media (max-width: 1000px) {
   .navbar {
     height: 100px;
-    background: none;
+    align-content: top;
+  }
+
+  .navbar li {
+    display: inline-block;
   }
 }
 
 @media (max-width: 750px) {
   .navbar {
     height: 100px;
-    background: none;
   }
 }
 
