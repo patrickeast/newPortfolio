@@ -57,7 +57,7 @@
     height: 100%;
   }
   .brandLogos {
-    color: #444;
+    color: #1bd19f;
   }
 }
 
@@ -199,7 +199,7 @@
 
 .greenH1 {
   color: #1bd19f;
-  text-shadow: 1px 1px #094b39;
+  text-shadow: 1px 1px #fff;
 }
 
 .icons {
