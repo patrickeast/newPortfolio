@@ -40,7 +40,7 @@ const Nav = props => (
       </li>
       <li className="text-right navbar-right">
         <a href="https://github.com/patrickeast" target="_blank" rel="noopener noreferrer" value="View my GitHub" title="View my GitHub"><i className="fab fa-github fa-1x"></i></a>
-        <a href="https://www.linkedin.com/in/patrickeast/" target="_blank" rel="noopener noreferrer" title="Follow my LinkedIn"><i className="fab fa-linkedin-in fa-1x"></i></a>
+        <a href="https://www.linkedin.com/in/patrickeast/" target="_blank" rel="noopener noreferrer" title="Connect with me on LinkedIn"><i className="fab fa-linkedin-in fa-1x"></i></a>
         <a href="mailto:patrick.east@icloud.com" target="_blank" rel="noopener noreferrer" title="Send me a message"><i className="fas fa-envelope fa-1x"></i></a>
       </li>
     </ul>
