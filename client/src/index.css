@@ -10,12 +10,13 @@ body, html {
 }
 
 @media (max-width: 750px) {
-  .body, html {
+  body, html {
+    background: url("./images/Nav.svg");
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#d2b3b7+1,c9b1cb+18,6fddb8+50,88dab2+100 */
     background: #8fbfff; /* Old browsers */
-    background: -moz-linear-gradient(bottom, #8fbfff 0%,#eb8919 5%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(bottom, #8fbfff 0%,#eb8919 5%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to bottom, #8fbfff 0%,#eb8919 5%);
+    background: -moz-linear-gradient(bottom, #8fbfff 0%,#8583be 7%,#eb8919 15%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(bottom, #8fbfff 0%,#8583be 7%,#eb8919 15%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #8fbfff 0%,#8583be 7%,#eb8919 15%);
   }
 }
 
