@@ -1,6 +1,5 @@
 import React from "react";
 import "./Navbar.css";
-import East from "../../images/EastTop.png";
 
 
 const Nav = props => (

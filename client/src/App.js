@@ -8,7 +8,6 @@ import Arnold from "./images/arnold.png";
 import Thrive from "./images/thrive.png";
 import TMS from "./images/TMS.png";
 import COACT from "./images/coact.png";
-import East from "./images/EastTop.svg";
 
 
 class App extends Component {
