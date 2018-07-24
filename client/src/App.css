@@ -40,12 +40,8 @@
 }
 
 .brandLogos:hover {
-  color: #d11b94;
+  color: #1bd19f;
   transition: .3s ease;
-}
-
-.brandLogos.react {
-  color: #d11b94;
 }
 
 .firstContainer {
