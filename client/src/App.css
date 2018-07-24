@@ -59,6 +59,13 @@
   width: 400px;
   height: 400px;
 }
+
+@media (max-width: 750px) {
+  .image-flip {
+    height: 200px;
+    width: 200px;
+  }
+}
    
 .mainflip {
   -webkit-transition: 1s;
@@ -129,6 +136,7 @@
 @media (max-width: 750px) {
   .secondContainer {
     height: 100%;
+    padding: 10%;
   }
 }
 
