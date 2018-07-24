@@ -222,7 +222,7 @@ class App extends Component {
         </div>
         <div className="secondContainer">
           <h2 className="App-intro text-white">
-            Please reach out to me if you have any questions, comments, or feedback. Thanks for visiting!
+            Please reach out to me if you have any questions, comments, or feedback. Thanks for visiting my site!
           </h2>
         </div>
         <Footer />
