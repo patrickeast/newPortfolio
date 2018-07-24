@@ -70,10 +70,9 @@ class App extends Component {
                           <span class="badge badge-pill badge-success">Adobe Creative Cloud</span>
                           <span class="badge badge-pill badge-danger">Wire Framing</span>
                           <span class="badge badge-pill badge-warning">Prototyping</span>
-                          <p className="card-text">Thrive Home Builders wanted a complete site redesign to modernize their look and better align
-                          their identity with their customers. However, they were stuck using a very limited industry-standard CMS for home builders.
-                          Our job was to work around the constraints of this CMS and still provide a whollly new User Experience that invites traffic flow
-                          and discovery. The product can be seen below.</p>
+                          <p className="card-text">Thrive Home Builders wanted a complete site redesign, but they were stuck using a very limited CMS.
+                          We worked around the constraints of this CMS to provide a whollly new User Experience that invites traffic flow
+                          and discovery.</p>
                           <a href="http://thrivehomebuilders.com/" target="_blank" rel="noopener noreferrer" className="btn btn-sm btn-outline-dark btn-md">Visit the redesign</a>
                         </div>
                       </div>
@@ -99,10 +98,9 @@ class App extends Component {
                           <span class="badge badge-pill badge-success">Adobe Creative Cloud</span>
                           <span class="badge badge-pill badge-danger">Wire Framing</span>
                           <span class="badge badge-pill badge-warning">Prototyping</span>
-                          <p className="card-text">Take Meds Seriously is a Colorado statewide campaign informing the public about the safe use,
-                          safe storage, and safe disposal of their prescription medications. This site went through numerous design mock-ups,
-                          wire frames, and prototypes before being built out through a custom WordPress theme. Though almost four years old, the
-                          site's UI and UX still hold up to industry standards.</p>
+                          <p className="card-text">This site went through numerous design mock-ups,
+                          wire frames, and prototypes before being built out through a custom WordPress theme. Though almost four years old, its
+                          UI and UX still hold up to industry standards.</p>
                           <a href="http://takemedsseriously.org/" target="_blank" rel="noopener noreferrer" className="btn btn-sm btn-outline-dark btn-md">Visit the site</a>
                         </div>
                       </div>
@@ -129,10 +127,8 @@ class App extends Component {
                           <span class="badge badge-pill badge-danger">UI Design</span>
                           <span class="badge badge-pill badge-warning">UX Research</span>
                           <span class="badge badge-pill badge-info">Google Analytics</span>
-                          <p className="card-text">This statewide complex site was 4+ years old when we were asked to completely rehaul it. Hours of market research, cross-
-                          referencing Google Analytics for trends, and scouring ADA and CLAS guidelines, informed the creation of detailed wire frames
-                          and initial prototypes for the new site, bringing the initial 35+ pages down to less than 10. Below, you can view the detailed wire frames and mock-
-                          ups for the site.</p>
+                          <p className="card-text">Hours of market research, cross-referencing Google Analytics for trends, and scouring ADA and CLAS guidelines informed the creation of detailed wire frames
+                          and initial prototypes for the new site, bringing the initial 35+ pages down to less than 10.</p>
                           <a href="https://www.dropbox.com/sh/7kqmayt6qul6fwj/AAA3D93AhIiopz3YQgtm1rjua?dl=0" target="_blank" rel="noopener noreferrer" className="btn btn-sm btn-outline-dark btn-md">View the plans</a>
                         </div>
                       </div>
@@ -167,8 +163,6 @@ class App extends Component {
                           <p className="card-text">
                             A simple but surprsingly challenging gane of Memory, using ReactJS as a single-page application. This project focuses
                             heavily on slick, fun UI elements that keep the player engaged, with an emphasis on mobile-first design and development.
-                            <br /><br />
-                            The game is designed with React to be scaled for future additions to the 90's Nickelodeon theme.
                           </p>
                           <a href="https://memory-nickelodeon.herokuapp.com/" target="_blank" rel="noopener noreferrer" className="btn btn-sm btn-outline-dark btn-md">Play it</a>
                         </div>
