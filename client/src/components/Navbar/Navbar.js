@@ -25,8 +25,8 @@ if ($('.navbar').length > 0) {
 }
 
 const Nav = props => (
-  <nav className="navbar navbar-expand-md fixed-top">
-    <ul>
+  <nav className="navbar navbar-expand-md fixed-top d-flex">
+    <ul className="d-flex align-items-start">
       <li className="text-left">
         <div className="navbar-brand">
           <h5 className="App-logo" title="Just for fun" alt="logo">&lt;/p&gt;</h5>
@@ -35,7 +35,7 @@ const Nav = props => (
       <li classname="text-center">
         {/* <span className="text-dark mt-2"><h3>Patrick East</h3></span> */}
         <img src={East} alt="Patrick East" className="img-fluid EastLogo" /><br />
-        <span><h4>Always learning, always coding.</h4></span>
+        
       </li>
       <li className="text-right navbar-right">
         <a href="https://github.com/patrickeast" target="_blank" rel="noopener noreferrer" value="View my GitHub" title="View my GitHub"><i className="fab fa-github fa-1x"></i></a>

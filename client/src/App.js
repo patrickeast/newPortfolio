@@ -2,12 +2,12 @@ import React, { Component } from 'react';
 import './App.css';
 import Navbar from "./components/Navbar/Navbar.js";
 import Footer from "./components/Footer/Footer.js";
-import Figment from "./images/Figment.png";
-import BlankCanvas from "./images/BlankCanvas.png";
-import Arnold from "./images/Arnold.png";
-import Thrive from "./images/Thrive.png";
+import Figment from "./images/figment.png";
+import BlankCanvas from "./images/blankCanvas.png";
+import Arnold from "./images/arnold.png";
+import Thrive from "./images/thrive.png";
 import TMS from "./images/TMS.png";
-import COACT from "./images/COACT.png";
+import COACT from "./images/coact.png";
 
 // ;(function (){
 //   var previousScroll = 0;
@@ -61,7 +61,7 @@ class App extends Component {
             </div>
             <div className="row">
               <div className="col-12 text-warning">
-                <h1>Scroll down to view my work...</h1>
+                <h1 className="greenH1">Scroll down to view my work...</h1>
               </div>
             </div>
           </div>
@@ -87,9 +87,16 @@ class App extends Component {
                     <div className="backside">
                       <div className="card">
                         <div className="card-body">
-                          <h4 className="card-title">Thrive Homebuilders</h4>
-                          <h6><i>UI/UX</i></h6>
-                          <p className="card-text">This is a card component with header and footer.</p>
+                          <h4 className="card-title">Thrive Home Builders</h4>
+                          <h6><i>UI/UX, Custom CMS</i></h6>
+                          <span class="badge badge-pill badge-primary">Custom CMS</span>
+                          <span class="badge badge-pill badge-success">Adobe Creative Cloud</span>
+                          <span class="badge badge-pill badge-danger">Wire Framing</span>
+                          <span class="badge badge-pill badge-warning">Prototyping</span>
+                          <p className="card-text">Thrive Home Builders wanted a complete site redesign to modernize their look and better align
+                          their identity with their customers. However, they were stuck using a very limited industry-standard CMS for home builders.
+                          Our job was to work around the constraints of this CMS and still provide a whollly new User Experience that invites traffic flow
+                          and discovery. The product can be seen below.</p>
                           <a href="http://thrivehomebuilders.com/" target="_blank" rel="noopener noreferrer" className="btn btn-sm btn-outline-dark btn-md">Visit the redesign</a>
                         </div>
                       </div>
@@ -111,7 +118,14 @@ class App extends Component {
                         <div className="card-body">
                           <h4 className="card-title">Take Meds Seriously</h4>
                           <h6><i>UI/UX, WordPress Maintenance</i></h6>
-                          <p className="card-text">This is a card component with header and footer.</p>
+                          <span class="badge badge-pill badge-primary">Custom CMS</span>
+                          <span class="badge badge-pill badge-success">Adobe Creative Cloud</span>
+                          <span class="badge badge-pill badge-danger">Wire Framing</span>
+                          <span class="badge badge-pill badge-warning">Prototyping</span>
+                          <p className="card-text">Take Meds Seriously is a Colorado statewide campaign informing the public about the safe use,
+                          safe storage, and safe disposal of their prescription medications. This site went through numerous design mock-ups,
+                          wire frames, and prototypes before being built out through a custom WordPress theme. Though almost four years old, the
+                          site's UI and UX still hold up to industry standards.</p>
                           <a href="http://takemedsseriously.org/" target="_blank" rel="noopener noreferrer" className="btn btn-sm btn-outline-dark btn-md">Visit the site</a>
                         </div>
                       </div>
@@ -131,10 +145,18 @@ class App extends Component {
                     <div className="backside">
                       <div className="card">
                         <div className="card-body">
-                          <h4 className="card-title">COACT Colorado</h4>
+                          <h4 className="card-title">COACT Colorado (Still in Dev)</h4>
                           <h6><i>UI Design/Prototyping, <br />UX Design/Wireframing</i></h6>
-                          <p className="card-text">This is a card component with header and footer.</p>
-                          <a href="https://www.dropbox.com/sh/7kqmayt6qul6fwj/AAA3D93AhIiopz3YQgtm1rjua?dl=0" target="_blank" rel="noopener noreferrer" className="btn btn-sm btn-outline-dark btn-md">Click Button</a>
+                          <span class="badge badge-pill badge-primary">Sketch</span>
+                          <span class="badge badge-pill badge-success">Adobe Creative Cloud</span>
+                          <span class="badge badge-pill badge-danger">UI Design</span>
+                          <span class="badge badge-pill badge-warning">UX Research</span>
+                          <span class="badge badge-pill badge-info">Google Analytics</span>
+                          <p className="card-text">This statewide complex site was 4+ years old when we were asked to completely rehaul it. Hours of market research, cross-
+                          referencing Google Analytics for trends, and scouring ADA and CLAS guidelines, informed the creation of detailed wire frames
+                          and initial prototypes for the new site, bringing the initial 35+ pages down to less than 10. Below, you can view the detailed wire frames and mock-
+                          ups for the site.</p>
+                          <a href="https://www.dropbox.com/sh/7kqmayt6qul6fwj/AAA3D93AhIiopz3YQgtm1rjua?dl=0" target="_blank" rel="noopener noreferrer" className="btn btn-sm btn-outline-dark btn-md">View the plans</a>
                         </div>
                       </div>
                     </div>
@@ -158,14 +180,18 @@ class App extends Component {
                         <div className="card-body">
                           <h4 className="card-title">Hey Arnold Memory Game</h4>
                           <h6><i>Mobile-first, React Components</i></h6>
+                          <span class="badge badge-pill badge-primary">ReactJS</span>
+                          <span class="badge badge-pill badge-success">Bootstrap</span>
+                          <span class="badge badge-pill badge-secondary">JSON Requests</span>
+                          <span class="badge badge-pill badge-danger">NodeJS</span>
+                          <span class="badge badge-pill badge-warning">Express</span>
+                          <span class="badge badge-pill badge-info">JavaScript</span>
+                          <span class="badge badge-pill badge-dark">CSS Animations</span>
                           <p className="card-text">
-                            Built with React, built mobile-first.
-                            <br />
-                            <span class="badge badge-pill badge-primary">ReactJS</span>
-                            <span class="badge badge-pill badge-success">Bootstrap</span>
-                            <span class="badge badge-pill badge-danger">NodeJS</span>
-                            <span class="badge badge-pill badge-warning">Express</span>
-                            <span class="badge badge-pill badge-info">JavaScript</span>
+                            A simple but surprsingly challenging gane of Memory, using ReactJS as a single-page application. This project focuses
+                            heavily on slick, fun UI elements that keep the player engaged, with an emphasis on mobile-first design and development.
+                            <br /><br />
+                            The game is designed with React to be scaled for future additions to the 90's Nickelodeon theme.
                           </p>
                           <a href="https://memory-nickelodeon.herokuapp.com/" target="_blank" rel="noopener noreferrer" className="btn btn-sm btn-outline-dark btn-md">Play it</a>
                         </div>
@@ -188,14 +214,16 @@ class App extends Component {
                         <div className="card-body">
                           <h4 className="card-title">Figment: A modern tool for writers</h4>
                           <h6><i>UI Design/Layout, CSS Animations</i></h6>
+                          <span class="badge badge-pill badge-primary">Handlebars</span>
+                          <span class="badge badge-pill badge-success">Materialize</span>
+                          <span class="badge badge-pill badge-danger">MySQL/Sequelize</span>
+                          <span class="badge badge-pill badge-warning">Express</span>
+                          <span class="badge badge-pill badge-info">Adobe Illustrator</span>
                           <p className="card-text">
-                            This is a card component with header and footer.
-                            <br />
-                            <span class="badge badge-pill badge-primary">Handlebars</span>
-                            <span class="badge badge-pill badge-success">Materialize</span>
-                            <span class="badge badge-pill badge-danger">NodeJS</span>
-                            <span class="badge badge-pill badge-warning">Express</span>
-                            <span class="badge badge-pill badge-info">MySQL</span>
+                            Designed with writers in mind, this application uses complex CSS animations and a Pinterest-style UI to display stories written by users in
+                            under 2,000 characters. It also makes use of Markdown converting NPM packages such as ShowdownJS and TurndownJS to allow a clean, minimal
+                            writing interface for users familiar with Markdown.
+                            Create an account and try out the app below.
                           </p>
                           <a href="http://figment.observer/" target="_blank" rel="noopener noreferrer" className="btn btn-sm btn-outline-dark btn-md">View the app</a>
                         </div>
@@ -218,7 +246,11 @@ class App extends Component {
                         <div className="card-body">
                           <h4 className="card-title">Blank Canvas: A tool for artists</h4>
                           <h6><i>User Authentication, UX Mapping</i></h6>
-                          <p className="card-text">This is a card component with header and footer.</p>
+                          <p className="card-text">Blank Canvas is a social media tool and personal portfolio application for artists in Colorado. Designed to be as
+                          user friendly and intuitive as possible, the app allows users to update their profiles with links to their art, search for galleries or
+                          stores nearby, and update their personal feed with a custom Google Search engine. While still in Dev, this app ultimately will help bring
+                          artists together to collaborate on works.</p>
+                          Create an account and view the app below.
                           <a href="https://blankcanvas-43876.firebaseapp.com/" target="_blank" rel="noopener noreferrer" className="btn btn-sm btn-outline-dark btn-md">View the app</a>
                         </div>
                       </div>
