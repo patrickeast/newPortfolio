@@ -5,6 +5,7 @@
 .parallax {
   background: url("./images/MountainsBG.svg");
   height: 100vh;
+  width: 100%;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -18,10 +19,16 @@
   }
 }
 
+.fizzy {
+  font-size: 3em;
+}
+
 .firstContainer {
-  background: #ec9729;
+  background: url("./images/CSSBG.jpg");
   padding: 10%;
-  height: 100vh;
+  height: 125vh;
+  width: 100%;
+  background-attachment: fixed;
   /* opacity: .7; */
   /* background-size: cover; */
   /* background-repeat: no-repeat; */
@@ -108,12 +115,13 @@
   }
 
 .secondContainer {
-  background-image: url("./images/KeyboardBG.jpg");
+  background: rgb(235,140,41);
+  background: linear-gradient(0deg, rgba(235,140,41,1) 20%, rgba(0,212,255,1) 100%);
   background-attachment: fixed;
   width: 100%;
-  height: 1000px;
+  height: 100vh;
   background-size: cover;
-  opacity: .7;
+  /* opacity: .7; */
   background-repeat: no-repeat;
 }
 
@@ -136,12 +144,13 @@
 }
 
 .App-intro {
-  padding: 25%;
+  padding: 25% 10%;
 }
 
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
 
 
