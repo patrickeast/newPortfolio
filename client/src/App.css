@@ -36,7 +36,7 @@
 }
 
 .brandLogos {
-  color: #fff;
+  color: #1bd19f;
 }
 
 .brandLogos:hover {
@@ -198,8 +198,7 @@
 }
 
 .greenH1 {
-  color: #1bd19f;
-  text-shadow: 1px 1px #fff;
+  color: #fff;
 }
 
 .icons {
