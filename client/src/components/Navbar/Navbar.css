@@ -1,22 +1,12 @@
 .navbar {
-  position: fixed;
-  right: 0; left: 0; top: -40px; bottom: 0;
-  background: url("../../images/Nav.svg");
+  background: url("../../images/NavBG.svg");
   background-repeat: repeat-x;
-  background-size: 100%;
-  background-attachment: fixed;
-  height: 350px;
-  margin-bottom: 20px;
-  /* -webkit-transition: all 0.6s ease-out;
-  -moz-transition: all 0.6s ease-out;
-  -o-transition: all 0.6s ease-out;
-  -ms-transition: all 0.6s ease-out;
-  transition: all 0.6s ease-out; */
+  width: 100%;
+  margin: 0 auto;
+  border-color: transparent;
 }
 
 .navbar ul {
-  position: absolute;
-  top: 30px;
   width: 100%;
   margin: 0 auto;
   padding: 0;
@@ -27,7 +17,14 @@
   display: inline-block;
 }
 
-.tagline {
+.navbar-default { border-color: transparent;} 
+
+.navbar-toggler {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+}
+/* .tagline {
   font-family: "Rajdhani", sans-serif;
   font-size: 2rem;
   position: absolute;
@@ -36,31 +33,20 @@
   right: 0;
   bottom: 0;
   z-index: 999999;
-}
+} */
 
-@media (max-width: 1100px) {
+/* @media (max-width: 1100px) {
   .tagline {
     font-size: 1rem;
     top: 25%;
   }
-}
+} */
 
 @media (max-width: 750px) {
-  .tagline {
-    top: 25%;
-    font-size: 1rem;
+  .navbar {
+    height: 100px;
+    background-size: 150%;
   }
-}
-
-.navbar-brand {
-  position: absolute;
-  top: 15px;
-}
-
-.navbar-right {
-  position: relative;
-  right: 25px;
-  top: 20px;
 }
 
 .navbar a {
@@ -76,7 +62,7 @@
   transition: 0.4s ease-out;
 }
 
-@media (max-width: 1100px) {
+/* @media (max-width: 1100px) {
   .navbar, .navbar a, .App-logo {
     font-size: 1.25rem;
   }
@@ -90,13 +76,11 @@
     background-size: 150%;
     background-position: top center;
   }
-}
-
-/* .EastLogo {
-  width: 33%;
-  position: absolute;
-  top: 30px;
 } */
+
+.EastLogo {
+  width: 100%;
+}
 
 /* @media (max-width: 750px) {
   .EastLogo {

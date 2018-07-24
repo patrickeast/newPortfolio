@@ -1,11 +1,12 @@
 body, html {
+  max-width: 100%;
   width: 100%;
-  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#a7c6e1+0,76aac7+60,76aac7+100 */
-  background: #a7c6e1; /* Old browsers */
-  background: -moz-linear-gradient(top, #a7c6e1 0%, #5ccaf5 60%, #09adef 100%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(top, #a7c6e1 0%,#5ccaf5 60%,#09adef 100%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom, #a7c6e1 0%,#5ccaf5 60%,#09adef 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  /* filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a7c6e1', endColorstr='#09adef',GradientType=0 );  */
+  background: url("./images/Nav.svg");
+  background: #cca7e1; /* Old browsers */
+  background: -moz-linear-gradient(top, #cca7e1 0%, #4bccff 60%, #00b7ff 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #cca7e1 0%,#4bccff 60%,#00b7ff 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #cca7e1 0%,#4bccff 60%,#00b7ff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a7c6e1', endColorstr='#00b7ff',GradientType=0 ); 
 }
 
 html {

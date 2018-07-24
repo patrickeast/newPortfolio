@@ -9,29 +9,6 @@ import Thrive from "./images/thrive.png";
 import TMS from "./images/TMS.png";
 import COACT from "./images/coact.png";
 
-// ;(function (){
-//   var previousScroll = 0;
-//   var navbar = document.querySelectorAll('navbar'),
-//       navClasses = navbar.classList; // classList doesn't work <IE10
-
-//   window.addEventListener('scroll', function(e){
-//      var currentScroll = window.scrollY;
-//      var isDown = currentScroll > previousScroll;
-
-//      if ( isDown && !navClasses.contains('scrolled') ){
-//         // scrolling down, didn't add class yet
-//         navClasses.add('scrolled'); // we hide the navbar
-//      } else if ( !isDown ){
-//         // scrolling up
-//         navClasses.remove('scrolled'); // won't error if no class found
-//      }
-
-//      // always update position
-//      previousScroll = currentScroll;
-//   });
-// }()); //run this anonymous function immediately
-
-
 
 class App extends Component {
   render() {
@@ -39,24 +16,24 @@ class App extends Component {
       <div className="App">
         <Navbar />
         <div className="parallax d-flex align-items-end">
-          <div className="container-fluid">
+          <div className="container-fluid mobileIcons">
             <div className="row justify-content-around">
               <div className="col-12">
-                <i className="text-white mr-4 pt-2 fab fa-react fa-3x" value="ReactJS"></i>
-                <i className="text-white mr-4 pt-2 fab fa-html5 fa-3x" value="HTML5"></i>
-                <i className="text-white mr-4 pt-2 fab fa-css3-alt fa-3x" value="CSS3"></i>
-                <i className="text-white mr-4 pt-2 icon-bootstrap fizzy" value="Bootstrap"></i>
-                <i className="text-white mr-4 pt-2 fab fa-js-square fa-3x" value="JavaScript"></i>
-                <i className="text-white mr-4 pt-2 icon-jquery fizzy" value="jQuery"></i>
-                <i className="text-white mr-4 pt-2 icon-csharp fizzy" value="C#"></i>
-                <i className="text-white mr-4 pt-2 icon-mongodb fizzy" value="MongoDB"></i>
-                <i className="text-white mr-4 pt-2 icon-mysql-alt fizzy" value="MySQL"></i>
-                <i className="text-white mr-4 pt-2 fab fa-node-js fa-3x" value="NodeJS"></i>
-                <i className="text-white mr-4 pt-2 icon-heroku fizzy" value="Heroku"></i>
-                <i className="text-white mr-4 pt-2 fab fa-github-alt fa-3x" value="GitHub"></i>
-                <i className="text-white mr-4 pt-2 fab fa-slack fa-3x" value="#Slack"></i>
-                <i className="text-white mr-4 pt-2 fab fa-wordpress fa-3x" value="WordPress"></i>
-                <i className="text-white mr-4 pt-2 fab fa-windows fa-3x" value="Windows"></i>
+                <i className="icon text-white mr-4 pt-2 fab fa-react fa-3x" color="#09adef" value="ReactJS"></i>
+                <i className="icon text-white mr-4 pt-2 fab fa-html5 fa-3x" value="HTML5"></i>
+                <i className="icon text-white mr-4 pt-2 fab fa-css3-alt fa-3x" value="CSS3"></i>
+                <i className="icon text-white mr-4 pt-2 icon-bootstrap fizzy" value="Bootstrap"></i>
+                <i className="icon text-white mr-4 pt-2 fab fa-js-square fa-3x" value="JavaScript"></i>
+                <i className="icon text-white mr-4 pt-2 icon-jquery fizzy" value="jQuery"></i>
+                <i className="icon text-white mr-4 pt-2 icon-csharp fizzy" value="C#"></i>
+                <i className="icon text-white mr-4 pt-2 icon-mongodb fizzy" value="MongoDB"></i>
+                <i className="icon text-white mr-4 pt-2 icon-mysql-alt fizzy" value="MySQL"></i>
+                <i className="icon text-white mr-4 pt-2 fab fa-node-js fa-3x" value="NodeJS"></i>
+                <i className="icon text-white mr-4 pt-2 icon-heroku fizzy" value="Heroku"></i>
+                <i className="icon text-white mr-4 pt-2 fab fa-github-alt fa-3x" value="GitHub"></i>
+                <i className="icon text-white mr-4 pt-2 fab fa-slack fa-3x" value="#Slack"></i>
+                <i className="icon text-white mr-4 pt-2 fab fa-wordpress fa-3x" value="WordPress"></i>
+                <i className="icon text-white mr-4 pt-2 fab fa-windows fa-3x" value="Windows"></i>
               </div>
             </div>
             <div className="row">

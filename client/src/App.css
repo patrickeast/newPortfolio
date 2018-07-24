@@ -12,6 +12,14 @@
   background-size: cover;
 }
 
+@media (max-width: 750px) {
+  .parallax {
+    background-size: 200%;
+    background-position: bottom center;
+  }
+  
+}
+
 
 
 /* Turn off parallax scrolling for tablets and phones. Increase the pixels if needed
@@ -28,7 +36,7 @@
 .firstContainer {
   background: url("./images/CSSBG.jpg");
   padding: 10%;
-  height: 125vh;
+  height: 100%;
   width: 100%;
   background-attachment: fixed;
 }
@@ -80,6 +88,14 @@
   transform-style: preserve-3d;
   position: relative;
 }
+
+@media (max-width: 750px) {
+  .mainflip {
+    height: 300px;
+    width: 300px;
+    margin-bottom: 40px;
+  }
+}
    
 .frontside, .backside {
   -webkit-backface-visibility: hidden;
@@ -109,7 +125,7 @@
    
 .backside {
   min-width: 300px;
-  min-height: 300px;
+  min-height: 400px;
   background: white;
   -webkit-transform: rotateY(-180deg);
   -moz-transform: rotateY(-180deg);
@@ -120,8 +136,8 @@
 
 @media (max-width: 750px) {
   .backside {
-    height: 100%;
-    width: 100%;
+    min-height: 100%;
+    min-width: 100%;
     margin-bottom: 40px;
   }
 }
