@@ -116,6 +116,13 @@
   -ms-transform: rotateY(-180deg);
   transform: rotateY(-180deg);
 }
+
+@media (max-width: 750px) {
+  .backside {
+    height: 100%;
+    width: 100%;
+  }
+}
    
 .card, .card-img-top {
   border-radius: 0;
