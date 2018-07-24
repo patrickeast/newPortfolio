@@ -2,9 +2,12 @@ import React, { Component } from 'react';
 import './App.css';
 import Navbar from "./components/Navbar/Navbar.js";
 import Footer from "./components/Footer/Footer.js";
-import Figment from "./images/figment.png";
-import BlankCanvas from "./images/blankCanvas.png";
-import Arnold from "./images/arnold.png";
+import Figment from "./images/Figment.png";
+import BlankCanvas from "./images/BlankCanvas.png";
+import Arnold from "./images/Arnold.png";
+import Thrive from "./images/Thrive.png";
+import TMS from "./images/TMS.png";
+import COACT from "./images/COACT.png";
 
 // ;(function (){
 //   var previousScroll = 0;
@@ -35,57 +38,41 @@ class App extends Component {
     return (
       <div className="App">
         <Navbar />
-        <div className="parallax d-flex align-items-center">
+        <div className="parallax d-flex align-items-end">
           <div className="container-fluid">
             <div className="row justify-content-around">
-              <div className="col-8">
-                <div className="jumbotron bg-dark jumbotron-fluid rounded mt-3">
-                  <div className="container">
-                    <div className="col-xs-10 col-md-12">
-                      <h2 className="text-white">Frontend development, specializing in UI/UX design</h2>
-                      <h4 className="text-white">Always learning, always coding.</h4>
-                      <div className="iconContainer container-fluid">
-                        <div className="row">
-                          <div className="col-sm-12">
-                            <i className="text-white mr-4 pt-2 fab fa-react fa-3x" value="ReactJS"></i>
-                            <i className="text-white mr-4 pt-2 fab fa-html5 fa-3x" value="HTML5"></i>
-                            <i className="text-white mr-4 pt-2 fab fa-css3-alt fa-3x" value="CSS3"></i>
-                            <i className="text-white mr-4 pt-2 icon-bootstrap fizzy" value="Bootstrap"></i>
-                            <i className="text-white mr-4 pt-2 fab fa-js-square fa-3x" value="JavaScript"></i>
-                            <i className="text-white mr-4 pt-2 icon-jquery fizzy" value="jQuery"></i>
-                            <i className="text-white mr-4 pt-2 icon-csharp fizzy" value="C#"></i>
-                            <i className="text-white mr-4 pt-2 icon-mongodb fizzy" value="MongoDB"></i>
-                            <i className="text-white mr-4 pt-2 icon-mysql-alt fizzy" value="MySQL"></i>
-                            <i className="text-white mr-4 pt-2 fab fa-node-js fa-3x" value="NodeJS"></i>
-                            <i className="text-white mr-4 pt-2 icon-heroku fizzy" value="Heroku"></i>
-                            <i className="text-white mr-4 pt-2 fab fa-github-alt fa-3x" value="GitHub"></i>
-                            <i className="text-white mr-4 pt-2 fab fa-slack fa-3x" value="#Slack"></i>
-                            <i className="text-white mr-4 pt-2 fab fa-wordpress fa-3x" value="WordPress"></i>
-                            <i className="text-white mr-4 pt-2 fab fa-windows fa-3x" value="Windows"></i>
-                          </div>
-                        </div>
-                      </div>
-                      <div className="container-fluid">
-                        <div className="row">
-                          <div className="col-sm-12 text-warning">
-                            <h1>Scroll down to view some of my works.</h1>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+              <div className="col-12">
+                <i className="text-white mr-4 pt-2 fab fa-react fa-3x" value="ReactJS"></i>
+                <i className="text-white mr-4 pt-2 fab fa-html5 fa-3x" value="HTML5"></i>
+                <i className="text-white mr-4 pt-2 fab fa-css3-alt fa-3x" value="CSS3"></i>
+                <i className="text-white mr-4 pt-2 icon-bootstrap fizzy" value="Bootstrap"></i>
+                <i className="text-white mr-4 pt-2 fab fa-js-square fa-3x" value="JavaScript"></i>
+                <i className="text-white mr-4 pt-2 icon-jquery fizzy" value="jQuery"></i>
+                <i className="text-white mr-4 pt-2 icon-csharp fizzy" value="C#"></i>
+                <i className="text-white mr-4 pt-2 icon-mongodb fizzy" value="MongoDB"></i>
+                <i className="text-white mr-4 pt-2 icon-mysql-alt fizzy" value="MySQL"></i>
+                <i className="text-white mr-4 pt-2 fab fa-node-js fa-3x" value="NodeJS"></i>
+                <i className="text-white mr-4 pt-2 icon-heroku fizzy" value="Heroku"></i>
+                <i className="text-white mr-4 pt-2 fab fa-github-alt fa-3x" value="GitHub"></i>
+                <i className="text-white mr-4 pt-2 fab fa-slack fa-3x" value="#Slack"></i>
+                <i className="text-white mr-4 pt-2 fab fa-wordpress fa-3x" value="WordPress"></i>
+                <i className="text-white mr-4 pt-2 fab fa-windows fa-3x" value="Windows"></i>
+              </div>
+            </div>
+            <div className="row">
+              <div className="col-12 text-warning">
+                <h1>Scroll down to view my work...</h1>
               </div>
             </div>
           </div>
         </div>
         <div className="firstContainer">
           <div className="container-fluid">
-            <div className="row">
+            {/* <div className="row">
               <div className="col-12">
                 <h1 className="text-center text-white">Just a few work examples...</h1>
               </div>
-            </div>
+            </div> */}
             {/* Row 1 */}
             <div className="row justify-content-between">
               {/* Portfolio #1 */}
@@ -94,15 +81,16 @@ class App extends Component {
                   <div className="mainflip">
                     <div className="frontside">
                       <div className="card">
-                        <img className="card-img-top img- fluid" src={Arnold} alt="Hey Arnold Game" />
+                        <img className="card-img-top img-fluid" src={Thrive} alt="Thrive Homebuilders" />
                       </div>
                     </div>
                     <div className="backside">
                       <div className="card">
                         <div className="card-body">
-                          <h4 className="card-title">Card Title</h4>
+                          <h4 className="card-title">Thrive Homebuilders</h4>
+                          <h6><i>UI/UX</i></h6>
                           <p className="card-text">This is a card component with header and footer.</p>
-                          <a href="/" className="btn btn-outline-dark btn-md">warning Button</a>
+                          <a href="http://thrivehomebuilders.com/" target="_blank" rel="noopener noreferrer" className="btn btn-sm btn-outline-dark btn-md">Visit the redesign</a>
                         </div>
                       </div>
                     </div>
@@ -115,15 +103,16 @@ class App extends Component {
                   <div className="mainflip">
                     <div className="frontside">
                       <div className="card">
-                        <img className="card-img-top img-fluid" src={Figment} alt="Figment.Observer" />
+                        <img className="card-img-top img-fluid" src={TMS} alt="Figment.Observer" />
                       </div>
                     </div>
                     <div className="backside">
                       <div className="card">
                         <div className="card-body">
-                          <h4 className="card-title">Card Title</h4>
+                          <h4 className="card-title">Take Meds Seriously</h4>
+                          <h6><i>UI/UX, WordPress Maintenance</i></h6>
                           <p className="card-text">This is a card component with header and footer.</p>
-                          <a href="/" className="btn btn-outline-dark btn-md">warning Button</a>
+                          <a href="http://takemedsseriously.org/" target="_blank" rel="noopener noreferrer" className="btn btn-sm btn-outline-dark btn-md">Visit the site</a>
                         </div>
                       </div>
                     </div>
@@ -136,15 +125,16 @@ class App extends Component {
                   <div className="mainflip">
                     <div className="frontside">
                       <div className="card">
-                        <img className="card-img-top img-fluid" src={BlankCanvas} alt="Blank Canvas" />
+                        <img className="card-img-top img-fluid" src={COACT} alt="COACT Colorado" />
                       </div>
                     </div>
                     <div className="backside">
                       <div className="card">
                         <div className="card-body">
-                          <h4 className="card-title">Card Title</h4>
+                          <h4 className="card-title">COACT Colorado</h4>
+                          <h6><i>UI Design/Prototyping, <br />UX Design/Wireframing</i></h6>
                           <p className="card-text">This is a card component with header and footer.</p>
-                          <a href="/" className="btn btn-outline-dark btn-md">warning Button</a>
+                          <a href="https://www.dropbox.com/sh/7kqmayt6qul6fwj/AAA3D93AhIiopz3YQgtm1rjua?dl=0" target="_blank" rel="noopener noreferrer" className="btn btn-sm btn-outline-dark btn-md">Click Button</a>
                         </div>
                       </div>
                     </div>
@@ -160,15 +150,24 @@ class App extends Component {
                   <div className="mainflip">
                     <div className="frontside">
                       <div className="card">
-                        <img className="card-img-top img-fluid" src={Arnold} alt="Hey Arnold Game" />
+                        <img className="card-img-top img- fluid" src={Arnold} alt="Hey Arnold Game" />
                       </div>
                     </div>
                     <div className="backside">
                       <div className="card">
                         <div className="card-body">
-                          <h4 className="card-title">Card Title</h4>
-                          <p className="card-text">This is a card component with header and footer.</p>
-                          <a href="/" className="btn btn-outline-dark btn-md">Click Button</a>
+                          <h4 className="card-title">Hey Arnold Memory Game</h4>
+                          <h6><i>Mobile-first, React Components</i></h6>
+                          <p className="card-text">
+                            Built with React, built mobile-first.
+                            <br />
+                            <span class="badge badge-pill badge-primary">ReactJS</span>
+                            <span class="badge badge-pill badge-success">Bootstrap</span>
+                            <span class="badge badge-pill badge-danger">NodeJS</span>
+                            <span class="badge badge-pill badge-warning">Express</span>
+                            <span class="badge badge-pill badge-info">JavaScript</span>
+                          </p>
+                          <a href="https://memory-nickelodeon.herokuapp.com/" target="_blank" rel="noopener noreferrer" className="btn btn-sm btn-outline-dark btn-md">Play it</a>
                         </div>
                       </div>
                     </div>
@@ -187,9 +186,18 @@ class App extends Component {
                     <div className="backside">
                       <div className="card">
                         <div className="card-body">
-                          <h4 className="card-title">Card Title</h4>
-                          <p className="card-text">This is a card component with header and footer.</p>
-                          <a href="/" className="btn btn-outline-dark btn-md">Click Button</a>
+                          <h4 className="card-title">Figment: A modern tool for writers</h4>
+                          <h6><i>UI Design/Layout, CSS Animations</i></h6>
+                          <p className="card-text">
+                            This is a card component with header and footer.
+                            <br />
+                            <span class="badge badge-pill badge-primary">Handlebars</span>
+                            <span class="badge badge-pill badge-success">Materialize</span>
+                            <span class="badge badge-pill badge-danger">NodeJS</span>
+                            <span class="badge badge-pill badge-warning">Express</span>
+                            <span class="badge badge-pill badge-info">MySQL</span>
+                          </p>
+                          <a href="http://figment.observer/" target="_blank" rel="noopener noreferrer" className="btn btn-sm btn-outline-dark btn-md">View the app</a>
                         </div>
                       </div>
                     </div>
@@ -208,9 +216,10 @@ class App extends Component {
                     <div className="backside">
                       <div className="card">
                         <div className="card-body">
-                          <h4 className="card-title">Card Title</h4>
+                          <h4 className="card-title">Blank Canvas: A tool for artists</h4>
+                          <h6><i>User Authentication, UX Mapping</i></h6>
                           <p className="card-text">This is a card component with header and footer.</p>
-                          <a href="/" className="btn btn-outline-dark btn-md">Click Button</a>
+                          <a href="https://blankcanvas-43876.firebaseapp.com/" target="_blank" rel="noopener noreferrer" className="btn btn-sm btn-outline-dark btn-md">View the app</a>
                         </div>
                       </div>
                     </div>

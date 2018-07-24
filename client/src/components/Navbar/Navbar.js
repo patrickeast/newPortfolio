@@ -26,16 +26,23 @@ if ($('.navbar').length > 0) {
 
 const Nav = props => (
   <nav className="navbar navbar-expand-md fixed-top">
-    <div className="navbar-brand fixed">
-      <h5 className="App-logo" title="Just for fun" alt="logo">&lt;/p&gt;</h5>
-    </div>
-    {/* <span className="text-dark mt-2"><h3>Patrick East</h3></span> */}
-    <img src={East} alt="Patrick East" className="mx-auto mt-2 EastLogo" /><br />
-    <div className="ml-auto mt-2 mt-md-0 icons">
-      <a href="https://github.com/patrickeast" target="_blank" rel="noopener noreferrer" value="View my GitHub" title="View my GitHub"><i className="fab fa-github fa-1x"></i></a>
-      <a href="https://www.linkedin.com/in/patrickeast/" target="_blank" rel="noopener noreferrer" title="Follow my LinkedIn"><i className="fab fa-linkedin-in fa-1x"></i></a>
-      <a href="mailto:patrick.east@icloud.com" target="_blank" rel="noopener noreferrer" title="Send me a message"><i className="fas fa-envelope fa-1x"></i></a>
-    </div>
+    <ul>
+      <li className="text-left">
+        <div className="navbar-brand">
+          <h5 className="App-logo" title="Just for fun" alt="logo">&lt;/p&gt;</h5>
+        </div>
+      </li>
+      <li classname="text-center">
+        {/* <span className="text-dark mt-2"><h3>Patrick East</h3></span> */}
+        <img src={East} alt="Patrick East" className="img-fluid EastLogo" /><br />
+        <span><h4>Always learning, always coding.</h4></span>
+      </li>
+      <li className="text-right navbar-right">
+        <a href="https://github.com/patrickeast" target="_blank" rel="noopener noreferrer" value="View my GitHub" title="View my GitHub"><i className="fab fa-github fa-1x"></i></a>
+        <a href="https://www.linkedin.com/in/patrickeast/" target="_blank" rel="noopener noreferrer" title="Follow my LinkedIn"><i className="fab fa-linkedin-in fa-1x"></i></a>
+        <a href="mailto:patrick.east@icloud.com" target="_blank" rel="noopener noreferrer" title="Send me a message"><i className="fas fa-envelope fa-1x"></i></a>
+      </li>
+    </ul>
   </nav>
 );
 
