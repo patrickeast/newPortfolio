@@ -8,12 +8,12 @@ const Nav = props => (
   {/* <nav className="navbar navbar-expand-md fixed-top d-flex bg-dark text-white"> */}
     {/* <div className="tagline">Always learning, always coding.</div> */}
     {/* <!-- Toggler/collapsibe Button --> */}
-    <button className="navbar-toggler bg-dark" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+    <button className="navbar-toggler bg-dark" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>
 
     {/* <!-- Navbar links --> */}
-    <div className="collapse navbar-collapse" id="navbarText">
+    <div className="collapse navbar-collapse navbarSupportedContent" id="navbarSupportedContent">
       <ul className="navbar-nav">
         <li className="text-left nav-item">
           <div className="navbar-brand">

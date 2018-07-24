@@ -42,10 +42,17 @@
   }
 } */
 
+@media (max-width: 1000px) {
+  .navbar {
+    height: 100px;
+    background: none;
+  }
+}
+
 @media (max-width: 750px) {
   .navbar {
     height: 100px;
-    background-size: 150%;
+    background: none;
   }
 }
 
