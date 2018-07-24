@@ -35,6 +35,15 @@
   font-size: 3em;
 }
 
+.brandLogos {
+  color: #fff;
+}
+
+.brandLogos:hover {
+  color: #d11b94;
+  transition: .3s ease;
+}
+
 .firstContainer {
   background: url("./images/CSSBG.jpg");
   padding: 10%;
@@ -46,6 +55,9 @@
 @media (max-width: 750px) {
   .firstContainer {
     height: 100%;
+  }
+  .brandLogos {
+    color: #d11b94;
   }
 }
 

@@ -18,7 +18,7 @@ class App extends Component {
         <div className="parallax d-flex align-items-end">
           <div className="container-fluid mobileIcons">
             <div className="row justify-content-around">
-              <div className="col-12">
+              <div className="col-12 brandLogos">
                 <i className="icon text-white mr-4 pt-2 fab fa-react fa-3x" color="#09adef" value="ReactJS"></i>
                 <i className="icon text-white mr-4 pt-2 fab fa-html5 fa-3x" value="HTML5"></i>
                 <i className="icon text-white mr-4 pt-2 fab fa-css3-alt fa-3x" value="CSS3"></i>
