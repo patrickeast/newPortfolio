@@ -127,7 +127,7 @@ class App extends Component {
                           <span class="badge badge-pill badge-danger">UI Design</span>
                           <span class="badge badge-pill badge-warning">UX Research</span>
                           <span class="badge badge-pill badge-info">Google Analytics</span>
-                          <p className="card-text">Hours of market research, cross-referencing Google Analytics for trends, and scouring ADA and CLAS guidelines informed the creation of detailed wire frames
+                          <p className="card-text">Combining Google Analytics and market research with ADA and CLAS guidelines informed the creation of detailed wire frames
                           and initial prototypes for the new site, bringing the initial 35+ pages down to less than 10.</p>
                           <a href="https://www.dropbox.com/sh/7kqmayt6qul6fwj/AAA3D93AhIiopz3YQgtm1rjua?dl=0" target="_blank" rel="noopener noreferrer" className="btn btn-sm btn-outline-dark btn-md">View the plans</a>
                         </div>
@@ -161,10 +161,9 @@ class App extends Component {
                           <span class="badge badge-pill badge-info">JavaScript</span>
                           <span class="badge badge-pill badge-dark">CSS Animations</span>
                           <p className="card-text">
-                            A simple but surprsingly challenging gane of Memory, using ReactJS as a single-page application. This project focuses
-                            heavily on slick, fun UI elements that keep the player engaged, with an emphasis on mobile-first design and development.
+                            A simple but surprsingly challenging game of Memory, using ReactJS. This project focuses on slick, fun UI elements that keep the player engaged, with an emphasis on mobile-first design and development.
                           </p>
-                          <a href="https://memory-nickelodeon.herokuapp.com/" target="_blank" rel="noopener noreferrer" className="btn btn-sm btn-outline-dark btn-md">Play it</a>
+                          <a href="https://memory-nickelodeon.herokuapp.com/" target="_blank" rel="noopener noreferrer" className="btn btn-sm btn-outline-dark btn-md">Play the game</a>
                         </div>
                       </div>
                     </div>
@@ -192,10 +191,8 @@ class App extends Component {
                           <span class="badge badge-pill badge-info">Adobe Illustrator</span>
                           <p className="card-text">
                             Designed with writers in mind, this application uses complex CSS animations and a Pinterest-style UI to display stories written by users in
-                            under 2,000 characters. It also makes use of Markdown converting NPM packages such as ShowdownJS and TurndownJS to allow a clean, minimal
-                            writing interface for users familiar with Markdown.
-                            Create an account and try out the app below.
-                          </p>
+                            under 2,000 characters.
+                          </p><br />
                           <a href="http://figment.observer/" target="_blank" rel="noopener noreferrer" className="btn btn-sm btn-outline-dark btn-md">View the app</a>
                         </div>
                       </div>
@@ -217,11 +214,8 @@ class App extends Component {
                         <div className="card-body">
                           <h4 className="card-title">Blank Canvas: A tool for artists</h4>
                           <h6><i>User Authentication, UX Mapping</i></h6>
-                          <p className="card-text">Blank Canvas is a social media tool and personal portfolio application for artists in Colorado. Designed to be as
-                          user friendly and intuitive as possible, the app allows users to update their profiles with links to their art, search for galleries or
-                          stores nearby, and update their personal feed with a custom Google Search engine. While still in Dev, this app ultimately will help bring
-                          artists together to collaborate on works.</p>
-                          Create an account and view the app below.
+                          <p className="card-text">Designed to be as user friendly as possible, Blank Canvas allows artists to update their profiles with links to their art, search for galleries or
+                          stores nearby, and update their personal feed with a custom Google Search engine.</p>
                           <a href="https://blankcanvas-43876.firebaseapp.com/" target="_blank" rel="noopener noreferrer" className="btn btn-sm btn-outline-dark btn-md">View the app</a>
                         </div>
                       </div>
