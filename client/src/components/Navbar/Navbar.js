@@ -13,7 +13,8 @@ const Nav = props => (
         </div>
       </li>
       <li classname="nav-item">
-        <img src={East} alt="Patrick East" className="img-fluid EastLogo" />
+        {/* <img src={East} alt="Patrick East" className="img-fluid EastLogo" /> */}
+        <h1 className="EastLogo">Patrick East<h4>Frontend Developer</h4></h1>
         {/* <h1>Patrick East</h1> */}
       </li>
       <li className="text-right nav-item">

@@ -8,6 +8,7 @@ import Arnold from "./images/arnold.png";
 import Thrive from "./images/thrive.png";
 import TMS from "./images/TMS.png";
 import COACT from "./images/coact.png";
+import East from "./images/EastTop.svg";
 
 
 class App extends Component {
@@ -18,22 +19,22 @@ class App extends Component {
         <div className="parallax d-flex align-items-end">
           <div className="container-fluid mobileIcons">
             <div className="row justify-content-around">
-              <div className="col-12 brandLogos">
-                <i className="icon text-white mr-4 pt-2 fab fa-react fa-3x" color="#09adef" value="ReactJS"></i>
-                <i className="icon text-white mr-4 pt-2 fab fa-html5 fa-3x" value="HTML5"></i>
-                <i className="icon text-white mr-4 pt-2 fab fa-css3-alt fa-3x" value="CSS3"></i>
-                <i className="icon text-white mr-4 pt-2 icon-bootstrap fizzy" value="Bootstrap"></i>
-                <i className="icon text-white mr-4 pt-2 fab fa-js-square fa-3x" value="JavaScript"></i>
-                <i className="icon text-white mr-4 pt-2 icon-jquery fizzy" value="jQuery"></i>
-                <i className="icon text-white mr-4 pt-2 icon-csharp fizzy" value="C#"></i>
-                <i className="icon text-white mr-4 pt-2 icon-mongodb fizzy" value="MongoDB"></i>
-                <i className="icon text-white mr-4 pt-2 icon-mysql-alt fizzy" value="MySQL"></i>
-                <i className="icon text-white mr-4 pt-2 fab fa-node-js fa-3x" value="NodeJS"></i>
-                <i className="icon text-white mr-4 pt-2 icon-heroku fizzy" value="Heroku"></i>
-                <i className="icon text-white mr-4 pt-2 fab fa-github-alt fa-3x" value="GitHub"></i>
-                <i className="icon text-white mr-4 pt-2 fab fa-slack fa-3x" value="#Slack"></i>
-                <i className="icon text-white mr-4 pt-2 fab fa-wordpress fa-3x" value="WordPress"></i>
-                <i className="icon text-white mr-4 pt-2 fab fa-windows fa-3x" value="Windows"></i>
+              <div className="col-12">
+                <i className="icon brandLogos mr-4 pt-2 fab fa-react fa-3x" color="#09adef" value="ReactJS"></i>
+                <i className="icon brandLogos mr-4 pt-2 fab fa-html5 fa-3x" value="HTML5"></i>
+                <i className="icon brandLogos mr-4 pt-2 fab fa-css3-alt fa-3x" value="CSS3"></i>
+                <i className="icon brandLogos mr-4 pt-2 icon-bootstrap fizzy" value="Bootstrap"></i>
+                <i className="icon brandLogos mr-4 pt-2 fab fa-js-square fa-3x" value="JavaScript"></i>
+                <i className="icon brandLogos mr-4 pt-2 icon-jquery fizzy" value="jQuery"></i>
+                <i className="icon brandLogos mr-4 pt-2 icon-csharp fizzy" value="C#"></i>
+                <i className="icon brandLogos mr-4 pt-2 icon-mongodb fizzy" value="MongoDB"></i>
+                <i className="icon brandLogos mr-4 pt-2 icon-mysql-alt fizzy" value="MySQL"></i>
+                <i className="icon brandLogos mr-4 pt-2 fab fa-node-js fa-3x" value="NodeJS"></i>
+                <i className="icon brandLogos mr-4 pt-2 icon-heroku fizzy" value="Heroku"></i>
+                <i className="icon brandLogos mr-4 pt-2 fab fa-github-alt fa-3x" value="GitHub"></i>
+                <i className="icon brandLogos mr-4 pt-2 fab fa-slack fa-3x" value="#Slack"></i>
+                <i className="icon brandLogos mr-4 pt-2 fab fa-wordpress fa-3x" value="WordPress"></i>
+                <i className="icon brandLogos mr-4 pt-2 fab fa-windows fa-3x" value="Windows"></i>
               </div>
             </div>
             <div className="row">
