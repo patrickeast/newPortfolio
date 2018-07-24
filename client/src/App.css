@@ -44,6 +44,10 @@
   transition: .3s ease;
 }
 
+.brandLogos.react {
+  color: #d11b94;
+}
+
 .firstContainer {
   background: url("./images/CSSBG.jpg");
   padding: 10%;
