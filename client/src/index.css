@@ -2,11 +2,11 @@ body, html {
   max-width: 100%;
   width: 100%;
   background: url("./images/Nav.svg");
-  background: #32916d; /* Old Browsers */
-  background: -webkit-linear-gradient(left,#32916d,#00ff7c); /*Safari 5.1-6*/
-  background: -o-linear-gradient(left,#32916d,#00ff7c); /*Opera 11.1-12*/
-  background: -moz-linear-gradient(left,#32916d,#00ff7c); /*Fx 3.6-15*/
-  background: linear-gradient(to right, #32916d, #00ff7c); /*Standard*/
+  background: #9be2fe; /* Old browsers */
+  background: -moz-linear-gradient(top, #9be2fe 0%, #00b7ff 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #9be2fe 0%, #00b7ff 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #9be2fe 0%,#67d1fb 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a7c6e1', endColorstr='#00b7ff',GradientType=0 ); 
 }
 
 html {
