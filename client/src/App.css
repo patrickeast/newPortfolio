@@ -33,6 +33,12 @@
   background-attachment: fixed;
 }
 
+@media (max-width: 750px) {
+  .firstContainer {
+    height: 100%;
+  }
+}
+
 .image-flip:hover .backside, .image-flip.hover .backside {
   -webkit-transform: rotateY(0deg);
   -moz-transform: rotateY(0deg);
@@ -118,6 +124,12 @@
   background-size: cover;
   /* opacity: .7; */
   background-repeat: no-repeat;
+}
+
+@media (max-width: 750px) {
+  .secondContainer {
+    height: 100%;
+  }
 }
 
 .App-logo {
