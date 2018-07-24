@@ -122,7 +122,6 @@ class App extends Component {
                         <div className="card-body">
                           <h4 className="card-title">COACT Colorado (Still in Dev)</h4>
                           <h6><i>UI Design/Prototyping, <br />UX Design/Wireframing</i></h6>
-                          <span class="badge badge-pill badge-primary">Sketch</span>
                           <span class="badge badge-pill badge-success">Adobe Creative Cloud</span>
                           <span class="badge badge-pill badge-danger">UI Design</span>
                           <span class="badge badge-pill badge-warning">UX Research</span>
@@ -192,7 +191,7 @@ class App extends Component {
                           <p className="card-text">
                             Designed with writers in mind, this application uses complex CSS animations and a Pinterest-style UI to display stories written by users in
                             under 2,000 characters.
-                          </p><br />
+                          </p>
                           <a href="http://figment.observer/" target="_blank" rel="noopener noreferrer" className="btn btn-sm btn-outline-dark btn-md">View the app</a>
                         </div>
                       </div>
