@@ -176,6 +176,8 @@
   .secondContainer {
     height: 100%;
     padding: 10%;
+    background: rgb(235,140,41);
+    background: linear-gradient(0deg, rgba(235,140,41,1) 10%, rgba(0,212,255,1) 100%);
   }
 }
 
