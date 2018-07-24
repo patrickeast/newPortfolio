@@ -262,8 +262,9 @@ class App extends Component {
           </div>
         </div>
         <div className="secondContainer">
-          <h2 className="App-intro text-white">
-            Please reach out to me if you have any questions, comments, or feedback. Thanks for visiting my site!
+          <h2 className="text-white">
+            I am a dedicated Frontend Developer, specializing in UI/UX design, with over 5 years of experience in the Adobe Creative Cloud Suite. If you have any questions, comments, or
+            if you just want to chat, send me an email!
           </h2>
         </div>
         <Footer />

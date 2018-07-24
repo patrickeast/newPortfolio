@@ -26,6 +26,7 @@ if ($('.navbar').length > 0) {
 
 const Nav = props => (
   <nav className="navbar navbar-expand-md fixed-top d-flex">
+  <div className="tagline">Always learning, always coding.</div>
     <ul className="d-flex align-items-start">
       <li className="text-left">
         <div className="navbar-brand">

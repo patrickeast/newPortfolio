@@ -27,6 +27,31 @@
   display: inline-block;
 }
 
+.tagline {
+  font-family: "Rajdhani", sans-serif;
+  font-size: 2rem;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 999999;
+}
+
+@media (max-width: 1100px) {
+  .tagline {
+    font-size: 1rem;
+    top: 25%;
+  }
+}
+
+@media (max-width: 750px) {
+  .tagline {
+    top: 25%;
+    font-size: 1rem;
+  }
+}
+
 .navbar-brand {
   position: absolute;
   top: 15px;
