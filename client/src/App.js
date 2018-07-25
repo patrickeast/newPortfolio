@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import Navbar from "./components/Navbar/Navbar.js";
 import Footer from "./components/Footer/Footer.js";
-import Figment from "./images/Figment.png";
+import Figment from "./images/figment1.png";
 import BlankCanvas from "./images/blankCanvas.png";
 import Arnold from "./images/arnold.png";
 import Thrive from "./images/thrive.png";
