@@ -11,10 +11,12 @@ const Nav = props => (
           <h5 className="App-logo" title="Just for fun" alt="logo">&lt;/p&gt;</h5>
         </div>
       </li>
-      <li classname="nav-item">
+      <li className="nav-item">
         {/* <img src={East} alt="Patrick East" className="img-fluid EastLogo" /> */}
-        <h1 className="EastLogo">Patrick East<h4>Frontend Developer</h4></h1>
-        {/* <h1>Patrick East</h1> */}
+        <div className="EastLogo">
+        <h1>Patrick East</h1>
+        <h4>Frontend Developer</h4>
+        </div>
       </li>
       <li className="text-right nav-item">
         <div className="topIcons">

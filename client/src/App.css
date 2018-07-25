@@ -203,11 +203,11 @@
   color: #fff;
 }
 
-.icons {
+.secondContainer a {
   color: #1bd19f;
 }
 
-.icons:hover {
+.secondContainer a:hover {
   text-decoration: none;
   color: #d11b94;
   transition: 0.4s ease-in-out;
