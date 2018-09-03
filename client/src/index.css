@@ -2,7 +2,7 @@ body, html {
   max-width: 100%;
   width: 100%;
   background: url("./images/Nav.svg");
-/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#d2b3b7+1,c9b1cb+18,6fddb8+50,88dab2+100 */
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#d2b3b7+1,c9b1cb+18,6fddb8+50,88dab2+100 */
   background: #8fbfff; /* Old browsers */
   background: -moz-linear-gradient(bottom, #8fbfff 0%,#8583be 10%,#eb8919 20%); /* FF3.6-15 */
   background: -webkit-linear-gradient(bottom, #8fbfff 0%,#8583be 10%,#eb8919 20%); /* Chrome10-25,Safari5.1-6 */
